@@ -1,0 +1,30 @@
+{
+  "name": "conduit",
+  "version": "1.0.0",
+  "description": "A simple message app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EisenEgan/conduitClone.git"
+  },
+  "author": "Patrick Egan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EisenEgan/conduitClone/issues"
+  },
+  "homepage": "https://github.com/EisenEgan/conduitClone#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-jwt": "^0.1.9",
+    "angular-route": "^1.6.6",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.0.1",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.12"
+  }
+}
